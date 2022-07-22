@@ -1,0 +1,100 @@
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+
+  .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+
+  .icon-link > .bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    fill: currentcolor;
+    transition: transform .25s ease-in-out;
+  }
+  .icon-link:hover > .bi {
+    transform: translate(.25rem);
+  }
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+
+  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .icon{
+    padding-right: 20px;
+  }
+  .certifications{
+    padding-top: 50px
+  }
+
+  .card-holder {
+  display: flex;
+  width: 130%;
+  position: absolute;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+}
+
+.card img, .card iframe  {
+  width: 100%;
+  height: 120%;
+  border-radius: inherit;
+}
+
+.card.large {
+  width: 450px;
+  transform: perspective(600px) rotateY(0deg) translateZ(150px);
+  box-shadow: 0px 0px 15px rgba(0,0,0,1);
+  margin-right: -15px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  display: inline-flex;
+  background: #333;
+  border-radius: 30px;
+  transition: all .4s ease;
+  margin-right: -150px;
+  box-shadow: 0 18px 31px -8px rgba(0,0,0,.5);
+  transform: perspective(700px) rotateY(45deg);
+}
+
+
+.card:hover {
+  transform: perspective(600px) rotateY(0deg) translateZ(100px);
+  box-shadow: 0px 0px 15px rgba(0,0,0,1);
+}
+
+.card:not(.last):hover {
+  margin-right: -15px;
+}
+.certi{
+  margin-bottom: 150px;
+}
+.lists{
+  margin-top: 100px;
+}
